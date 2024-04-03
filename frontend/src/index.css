@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.inner-shadow {
+  text-shadow: 2px 2px 4px rgba(27, 27, 27, 0.5) inset;
+}
+.inner-shadow1 {
+  box-shadow: 2px 2px 4px rgba(44, 7, 75, 0.5) inset;
+}
+body {
+  overflow-x: hidden;
+  background-image: url("https://64.media.tumblr.com/d6d0246ca0dffa230f03be2521b3210f/tumblr_obfjz6Bd9f1runoqyo2_r1_540.gif");
+  background-size: cover;
+}
