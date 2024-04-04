@@ -1,6 +1,4 @@
-Sure, here's a sample README file for your AstroGuide web app:
 
----
 
 # AstroGuide Web App
 
