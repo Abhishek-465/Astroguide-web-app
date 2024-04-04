@@ -9,7 +9,7 @@ const Picture = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://api.nasa.gov/planetary/apod?api_key=9p0NHUgTSP1385xY59QsJC9XeW7AxaeSK59pbr5c"
+          process.env.API_URL
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
