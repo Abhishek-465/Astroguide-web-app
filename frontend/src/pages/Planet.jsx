@@ -9,7 +9,7 @@ const Planet = () => {
   useEffect(() => {
     const fetchPlanets = async () => {
       const url =
-        "https://planets-info-by-newbapi.p.rapidapi.com/api/v1/planets/";
+        process.env.PLANET_URL;
       const options = {
         method: "GET",
         headers: {
