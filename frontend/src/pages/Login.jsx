@@ -63,34 +63,38 @@ function Login() {
   };
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center pt-[100px]">
       {uid !== "" ? (
-        <div className="w-[310px] h-[350px] mt-8 py-3 rounded-lg flex flex-col justify-center items-center bg-transparent text-white shadow-inner shadow-gray-100">
-          <div className="bg-gray-800 text-white w-[140px] h-[40px] p-1 rounded-md text-center">
-            Already signed in!
+        <div className="w-[320px] h-[360px]">
+          <div className="w-[310px] h-[350px] mt-8 py-3 rounded-lg flex flex-col justify-center items-center bg-transparent text-white shadow-inner shadow-gray-100">
+            <div className="bg-gray-800 text-white w-[140px] h-[40px] p-1 rounded-md text-center">
+              Already signed in!
+            </div>
+            <button
+              className="bg-red-800 w-[76px] h-[30px] mt-6 text-white rounded-xl"
+              onClick={handleSignOut}
+            >
+              Sign out
+            </button>
           </div>
-          <button
-            className="bg-red-800 w-[76px] h-[30px] mt-6 text-white rounded-xl"
-            onClick={handleSignOut}
-          >
-            Sign out
-          </button>
         </div>
       ) : (
-        <div className="w-[310px] h-[350px] mt-8 py-3 rounded-lg flex flex-col justify-center items-center text-black bg-gray-900 shadow-gray-100">
-          <h1 className="text-bold text-[30px] text-center mb-8 text-white">
-            Login
-          </h1>
+        <div className="w-[320px] h-[360px] bg-gray-900 flex justify-center items-center rounded-lg mt-5">
+          <div className="w-[310px] h-[350px]  rounded-lg border-white border-2 flex flex-col justify-center items-center text-black bg-gray-900 shadow-gray-100">
+            <h1 className="text-bold text-[30px] text-center mb-8 text-white">
+              Login
+            </h1>
 
-          <button
-            className="bg-green-900 text-white w-[180px] h-[48px] rounded-xl"
-            onClick={handleClick}
-          >
-            Continue With Google{" "}
-            <div className="flex justify-center">
-              <FaGoogle />
-            </div>
-          </button>
+            <button
+              className="bg-green-900 text-white w-[180px] h-[48px] rounded-xl"
+              onClick={handleClick}
+            >
+              Continue With Google{" "}
+              <div className="flex justify-center">
+                <FaGoogle />
+              </div>
+            </button>
+          </div>
         </div>
       )}
     </div>
