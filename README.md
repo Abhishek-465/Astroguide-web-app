@@ -1,7 +1,7 @@
-
-
 # AstroGuide Web App
-
+<div style="text-align:center">
+  <img src="https://github.com/Abhishek-465/Finance-tracker/assets/127030695/1924b5da-aafc-4059-a974-fec29ab8e613" alt="Picture" />
+</div>
 AstroGuide is a full-stack web application that provides users with a rich experience in exploring the wonders of our solar system. Users can view the astronomy picture of the day, access detailed information about planets, write and share blogs, and authenticate using Google credentials.
 
 ## Features
