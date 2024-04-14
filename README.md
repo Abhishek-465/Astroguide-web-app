@@ -15,7 +15,7 @@ AstroGuide is a full-stack web application that provides users with a rich exper
 - **Google Authentication**: Secure and convenient login using Google accounts, ensuring a seamless user experience.
 - **Database**: MongoDB is used as the database to store user data, blog posts, and other application-related information.
 - **API Integration**: The application integrates with the Rapid API for real-time planet data and the NASA API to fetch the astronomy picture of the day.
-- **Frontend**: Built with React.js for a dynamic and interactive user interface, enhanced with Tailwind CSS for modern and responsive styling.
+- **Frontend**: Built with React.js using Vite for a dynamic and interactive user interface, enhanced with Tailwind CSS for modern and responsive styling.
 - **Backend**: Node.js powers the backend, handling data processing, user authentication, and API interactions.
 
 ## Installation
